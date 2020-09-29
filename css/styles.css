@@ -1,0 +1,29 @@
+main {
+    max-width: 850px;
+    margin: auto;
+}
+
+.searchfield {
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 5px;
+    text-align: center;
+}
+
+#search {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 300px;
+    border-radius: 3px;
+    border: solid 2px lightslategray;
+    margin: 0 auto 15px auto;
+}
+
+.gallery {
+    display: grid;
+    max-width: 850px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    grid-gap: 15px;
+    grid-template-rows: repeat(3, 1fr);
+    margin: 0 auto;
+}
